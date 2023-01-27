@@ -3,5 +3,5 @@ class Person:
 		self.name = name
 		self.age = age
 		self.sex = sex
-	def Person(self):
+	def printPerson(self):
 		print("{}: Age: {}, Sex: {}".format(self.name, self.age, self.sex))
